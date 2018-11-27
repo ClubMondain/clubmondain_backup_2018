@@ -1,0 +1,128 @@
+/* LESS Document */
+/*header {
+  width: 100%;
+  height: 500px;
+  background: #000;
+}*/
+.select2-selection--multiple{
+	width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 13px;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;}
+/*.select2-container{
+	width:100% !important;}	*/
+.pic_upload img{
+	width: 80px;
+    height: 80px;
+    float: right;
+    margin: 0;}	
+.alert-danger{
+	color: #fff;
+    background-color: #dd4b39 !important;
+    border-color: #dd4b39 !important;}	
+.cat_heading{
+	font-size: 18px;
+    color: inherit;
+    line-height: 24px;
+    font-family: inherit;
+    float: none;
+	font-weight:700}
+/*.full_details{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e1e1e1;
+    margin: 10px 0;	
+ }	*/	
+.select2-container .select2-selection--single{
+	 height:100% !important;}
+.select2-container--default .select2-selection--single{
+	border:0px !important;}	
+.membership-section ul.member-tabs li{width:100% !important;}	
+.banner-cntnt .search{margin-bottom:50px;}
+.banner-cntnt p{margin-bottom:50px;}	
+.bg-black{background:#1c222e !important;}
+.membership-single .limit{
+	height:650px;
+	overflow:auto !important;}
+.membership-single .limit ol {
+	list-style-position:inside;}
+.membership-single .limit ol li {
+    font-size: 14px;
+	line-height:20px;
+	text-align:left;
+    color: #484747;
+    font-weight: 400;
+    margin: auto;
+	padding-bottom:5px;}
+.membership-single .limit p{
+	display:block;
+	font-size:16px;
+	color:#5d5d5d;
+	position:static;
+	-webkit-transform:none;
+	transform:none;
+	margin-bottom:10px;}
+.membership-full {
+	text-align:center;}
+.membership-full .col-sm-4{
+	display:inline-block;
+	float:none;
+	margin-left:-3px;}
+.city-search .select-sec .select{
+margin-right:5%;
+width: 45%;	
+}	
+.btn_cls a{
+	width: 100%;
+    font-size: 15px;
+    display: block;
+    background: #1f2531;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px;}	
+.no_evnt h2{
+	font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;}	
+.no_data h2{
+	font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;}
+.single-meet .image {
+    width: 160px;
+    height: 100px;}
+.city-request-form textarea {
+    width: 100%;
+    height: 150px;
+    color: #7d7d7d;
+    font-family: "Libre Baskerville";
+    font-size: 14px;
+    padding: 0 10px;
+    text-align: left;
+    border: 1px solid #e1e1e1;}
+.content .page-share button{
+	margin-right:20px;}	
+.gallery_button a{
+	font-size: 12px;
+    line-height: 12px;
+    background: #1c222e;
+    color: #fff;
+    padding: 5px 9px;
+    margin-left: 8px;}
+.gallery-images{
+	padding: 15px;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 20px;}	
+.top-data{
+	    margin-top: 20px;}		
+.page-details .content p strong{
+	width:80px;
+	display:inline-block;}	
+.beat-verson{
+	position: absolute;
+    margin-top: 15px;
+    z-index: 999;
+    color: #fff;
+    margin-left: 20px;}					

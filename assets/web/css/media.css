@@ -1,0 +1,549 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*@media (min-width: 768px) and (max-width: 991px) {
+.navigation .navbar-nav .open .dropdown-menu {
+	position: static;
+	float: none;
+	width: auto;
+	margin-top: 0;
+	background-color: transparent;
+	border: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;}
+.navigation .navbar-nav .open .dropdown-menu > li > a {
+	line-height: 20px;}
+.navigation .navbar-nav .open .dropdown-menu > li > a,
+.navigation .navbar-nav .open .dropdown-menu .dropdown-header {
+	padding: 5px 15px 5px 25px;}
+.navigation .dropdown-menu > li > a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: normal;
+	line-height: 1.42857143;
+	color: #333;
+	white-space: nowrap;}
+.navigation .navbar-header {
+	float: none;}
+.navigation .navbar-toggle {
+	display: block;}
+.navigation .navbar-collapse {
+	border-top: 1px solid transparent;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);}
+.navigation .navbar-collapse.collapse {
+	display: none!important;}
+.navigation .navbar-nav {
+	float: none!important;
+	margin: 7.5px 50px 7.5px -15px;}
+.navigation .navbar-nav>li {
+	float: none;
+}
+.navigation .navbar-nav>li>a {
+	padding-top: 10px;
+	padding-bottom: 10px;}
+.navigation .navbar-text {
+	float: none;
+	margin: 15px 0;}
+.navigation .navbar-collapse.collapse.in { 
+	display: block!important;}
+.navigation .collapsing {
+	overflow: hidden!important;}
+}*/
+
+@media (min-width:1441px) {}
+
+@media (min-width:1400px) {
+    .focus-carousal .nbs-flexisel-inner {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (min-width:1200px) {}
+
+@media (max-width:1309px) {
+    .city-search.fixed-sec {
+        left: 33.33%
+    }
+    .single-city-map.fixed-sec {
+        width: 66.66%;
+    }
+}
+
+@media (max-width:1199px) {
+    .focus-carousal .nbs-flexisel-inner {
+        width: 100%;
+        margin: auto;
+    }
+    .city-search .select-sec {
+        width: 100%;
+        padding: 0;
+        border: none;
+        margin-bottom: 10px;
+    }
+    .city-search .sort-sec {
+        width: 100%;
+        padding: 0;
+    }
+    .dashboard-toggle {
+        display: block;
+    }
+    .dashboard-sidebar {
+        position: absolute;
+        left: -215px;
+        transition: .5s;
+        z-index: 999;
+    }
+    .dashboard-main {
+        padding-left: 0;
+    }
+    .dashboard.show-sidebar .dashboard-sidebar {
+        position: absolute;
+        left: 0px;
+        box-shadow: 5px 0 10px rgba(0, 0, 0, .2);
+        padding-bottom: 3000px;
+        margin-bottom: -3000px;
+    }
+    .dashboard.show-sidebar .dashboard-toggle button {
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, .2);
+    }
+    .city-search.fixed-sec {
+        left: 41.6666%;
+    }
+    .single-city-map.fixed-sec {
+        right: 58.33%;
+    }
+    .blog-left {
+        border: none;
+    }
+    .page-slider .image{
+        height: 200px;
+    }
+}
+
+@media (max-width:991px) {
+    .footer-links .single {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .footer-links .single.middle {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .footer-links .single.border {
+        border: none;
+    }
+    .login-nav {
+        border-top: 1px solid #e9e9e9;
+    }
+    .page-banner .content {
+        width: 90%;
+        left: 0;
+    }
+    .page-content {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .sidebar {
+        width: 100%;
+    }
+    .review-main .image {
+        width: 160px;
+    }
+    .review-main .content {
+        padding-left: 170px;
+    }
+    .profile-top .left,
+    .profile-main-content>.left {
+        width: 55%;
+    }
+    .profile-top .right,
+    .profile-main-content>.right {
+        width: 45%;
+    }
+    .customer-information .border {
+        border: none;
+    }
+    body .membership-single .limit,
+    .membership-single .plan {
+        height: auto;
+    }
+    .membership-single .plan p {
+        position: relative;
+        top: 0;
+        -webkit-transform: none;
+        transform: none;
+    }
+    .dashboard-blogs .col-md-4{
+        width: 100%;
+    }
+    .page-slider .image{
+        height: 30vw;
+    }
+}
+
+@media (max-width:767px) {
+    .footer-links .single,
+    .dashboard-main .left,
+    .dashboard-main .right,
+    .profile-top .left,
+    .profile-top .right,
+    .profile-main-content>.left,
+    .profile-main-content>.right,
+    .product-main .left,
+    .product-main .right,
+    .membership-section ul.member-tabs li,
+    .shop-continue .left,
+    .shop-continue .right {
+        width: 100%;
+    }
+    .shop-continue .left,
+    .shop-continue .right,
+    .shop-checkout .img,
+    .shop-checkout {
+        text-align: center;
+    }
+    .shop-checkout button,
+    .shop-checkout .img {
+        float: none;
+    }
+    .menu .navbar-toggle {
+        margin: auto;
+        padding: 0 10px;
+        margin-right: 10px;
+    }
+    .menu .navbar-nav {
+        padding-top: 10px;
+        border-top: 1px solid #e9e9e9;
+    }
+    .menu .navbar-nav>li {
+        padding: 0;
+    }
+    .menu .navbar-nav>li>a {
+        float: none;
+        display: block;
+        border: none;
+        padding: 7px 10px;
+    }
+    .rating-cntnt .left,
+    .rating-cntnt .right {
+        width: 100%;
+        border: none;
+        padding: 0;
+        margin-top: 15px;
+    }
+    .membership-single,
+    .shop-checkout .img {
+        margin-bottom: 20px;
+    }
+    .membership-single>h3,
+    .membership-single .plan,
+    .membership-single .fee,
+    .membership-single .limit {
+        height: auto;
+    }
+    .membership-single .plan p,
+    .membership-single .fee .cntnt,
+    .membership-single .limit p {
+        position: static;
+        transform: none;
+    }
+    .details-form .form-row .field,
+    .details-form .form-row .cntnt,
+    .details-form .form-row .blank {
+        display: table;
+        width: 100%;
+    }
+    .details-form .form-row .field {
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    .page-banner.slide {
+        height: 300px;
+    }
+    .cities-head h3 {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .cities-head a {
+        float: none;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .single-city-map {
+        width: 100%;
+        height: 300px !important;
+        min-height: 0;
+        margin-bottom: 30px;
+    }
+    .cities {
+        padding: 30px 0;
+    }
+    .profile-top {
+        height: auto;
+    }
+    .profile-top .right {
+        height: auto;
+        padding: 50px 0;
+    }
+    .profile-top .right .content {
+        position: static;
+        transform: none;
+    }
+    .profile-main-content>.left {
+        padding-right: 0;
+    }
+    .product-main .left {
+        padding: 0
+    }
+    .banner {
+        height: 900px;
+    }
+    .registration-form-select .other {
+        margin-top: 20px;
+    }
+    .details-form p.day-name {
+        padding-top: 0;
+        margin-bottom: 10px;
+    }
+    .details-form .check.closed {
+        padding-bottom: 5px;
+        margin-top: 0;
+    }
+    .register-bottom .border {
+        margin-bottom: 15px;
+        border: none;
+    }
+    .shop-checkout-table .table-responsive {
+        margin-bottom: 0;
+    }
+    
+    .footer-links .single {
+        text-align: center;
+    }
+}
+
+@media (max-width:640px) {
+    .login-nav>ul>li>a span.name {
+        display: inline;
+    }
+    .login-nav p {
+        width: 100%;
+        text-align: center;
+    }
+    .login-nav>ul {
+        width: 100%;
+        float: left;
+    }
+    .menu {
+        padding: 5px 0;
+    }
+    .menu .navbar-nav {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .login-nav>ul>li:first-child {
+        border-left: none;
+    }
+    .login-nav>ul>li {
+        width: 50%;
+        border-top: 1px solid #e9e9e9;
+    }
+    .before-login.login-nav>ul>li{
+        width: 33.33%;
+    }
+    .login-nav>ul>li>a {
+        width: 100%;
+        text-align: center;
+    }
+    .login-nav ul li a i,
+    .login-nav ul li a span {
+        float: none;
+        display: inline-block;
+    }
+    .banner-cntnt .search .form input {
+        background: none;
+        padding: 0 10px;
+    }
+    .page-banner .content h3 {
+        font-size: 40px;
+    }
+    .login-sec {
+        padding: 15px;
+        padding-top: 30px
+    }
+    .page-tab-links ul li {
+        width: 100%;
+        border-right: 1px solid #d9dadc !important;
+        border-bottom: 1px solid #d9dadc;
+    }
+    .page-tab-links ul {
+        border-right: none;
+        border-bottom: none;
+    }
+    .store-location .map {
+        height: 100vw;
+    }
+    .join-members {
+        padding: 20px 0;
+    }
+    .members-cntnt {
+        position: static;
+        transform: none;
+        margin: 30px auto;
+    }
+    .page-share button.favourite {
+        clear: left;
+        margin-left: auto;
+    }
+    .registration-form-select {
+        padding: 20px;
+    }
+    .registration-form-sec {
+        padding: 15px;
+    }
+    .registration-form-select .heading .top h2,
+    .registration-form-select .heading .top h2 em {
+        font-size: 22px;
+    }
+    .banner-cntnt {
+        top: 55%
+    }
+    .other-reg-button {
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+}
+
+@media (max-width:480px) {
+    .banner-cntnt h3 {
+        font-size: 36px;
+    }
+    .sidebar-items .single {
+        width: 50%;
+        max-width: none;
+    }
+    .map-form {
+        padding: 15px;
+    }
+    .map-form .text,
+    .map-form .select,
+    .map-form .page-search {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .page-share button {
+        max-width: none;
+        display: block;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .page-share .social {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .city-search .select-sec .select {
+        width: 100%;
+        height: 40px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .search-sec {
+        width: calc(100% - 100px);
+        height: 40px;
+    }
+    .city-search .add-event-sec {
+        width: 100%;
+        height: 40px;
+        margin: 0;
+        margin-top: 10px;
+        padding: 0;
+        border: none;
+    }
+    .city-search .add-event-sec a {
+        line-height: 40px;
+    }
+    .sort-btn {
+        width: 90px;
+        height: 40px;
+    }
+    .sort-btn a {
+        padding: 5px 0;
+    }
+    .review-main .image {
+        width: 100%;
+        height: 35vw;
+        float: none;
+        margin-bottom: 15px;
+    }
+    .review-main .content {
+        padding-left: 0;
+    }
+    .profile-top .left .image {
+        height: auto;
+    }
+    .profile-top .right {
+        padding: 20px 0;
+    }
+    .profile-contain {
+        padding: 0px;
+        border: none;
+    }
+    .cities-scroll a.all-cities-btn {
+        width: 100%;
+        float: none;
+    }
+    .cities-scroll .other-cities {
+        padding: 0;
+    }
+    .all-cart-product .cntnt {
+        vertical-align: top;
+    }
+    .all-cart-product .image {
+        width: 100%;
+        max-width: 100px;
+        height: auto;
+        display: block;
+        padding: 0;
+        border: none;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .all-cart-product .cntnt{
+        width: 100%;
+        padding-left: 0;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .all-cart-product .price{
+        width: 100%;
+        display: block;
+    }
+    .sort-btn .date-picker-btn {
+        height: 40px;
+    }
+    .sort-btn .date-picker-btn i {
+        line-height: 40px;
+    }
+    .meet-top .meet-peoples{
+        max-width: none;
+        float: none;
+    }
+}
+
+@media (max-width:400px) {
+    .before-login.login-nav>ul>li{
+        width: 100%;
+    }
+}

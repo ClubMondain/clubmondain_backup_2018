@@ -1,0 +1,12 @@
+/* LESS Document */
+.login-form .input-sec{
+	height:50px;}
+.login-form .input-sec i{
+	line-height:50px;}	
+.error{
+	color:#F00;
+	margin:5px;}	
+.login-form .input-sec i.fa-times-circle-o{
+	color:#F00;}
+.login-form .input-sec i.fa-check-circle-o{
+	color:#0F0;}	
